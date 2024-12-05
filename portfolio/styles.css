@@ -1,0 +1,66 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #C9DCB3, #5F6062, #555358);
+    border-radius: 5px;
+}
+li{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 160%;
+    color: #C9DCB3;
+    border-width: 20px;
+}
+li a{
+    display: block;
+    color: #555358;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 5px;
+    border-width: 2px;
+}
+li a:hover{
+    background-color:#555358;
+    color: #C9DCB3;
+    transition-duration: 0.4s;
+    opacity: .9;
+}
+body{
+    /* background-image: linear-gradient(#555358, transparent, #555358); */
+    background-image: url("owl.jpg");
+    background-size: cover;
+    size: 100vh;
+    background: center;
+    background-repeat: no-repeat;
+}
+
+body h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #C9DCB3;
+    text-align: center;
+    margin-top: 120px;
+}
+body h1:hover{
+    color: #555358;
+    background-color: #C9DCB3, .5;
+    opacity: .5;
+    transition-duration: 0.4s;
+}
+body p{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #C9DCB3;
+    text-align: center;
+}
+body p:hover{
+    color: #555358;
+    background-color: #C9DCB3, .5;
+    opacity: .5;
+    transition-duration: 0.4s;
+}
